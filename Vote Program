@@ -1,0 +1,36 @@
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+class Vote
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter age of the person");
+		int x=sc.nextInt();
+		if(x>=18)
+		{
+			System.out.println("Eligible for vote");
+		}
+		else
+		{
+			System.out.println("Not eligible for vote");
+		}
+	}
+
+}
+
+
+/* Output :---
+Enter age of the person
+50
+Eligible for vote
+
+
+Output 2 :---
+
+Enter age of the person
+12
+Not eligible for vote
+
+*/
